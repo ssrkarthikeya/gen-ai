@@ -1,9 +1,81 @@
-<mxfile host="app.diagrams.net" modified="2024-07-10T14:32:45.508Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="F9MA4f6Q8d6yt6IOYkOM" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-10T14:40:32.362Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="0Mu9yWvD1gINU5kLpQ39" version="24.6.4" type="github">
   <diagram name="Generative Modeling" id="2twwRFYKnPh-EqDGWzVh">
-    <mxGraphModel dx="2074" dy="1107" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2035" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_x90Vs7hyReQ9LNUQ3zL-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_x90Vs7hyReQ9LNUQ3zL-1" target="_x90Vs7hyReQ9LNUQ3zL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_x90Vs7hyReQ9LNUQ3zL-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_x90Vs7hyReQ9LNUQ3zL-1" target="_x90Vs7hyReQ9LNUQ3zL-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_x90Vs7hyReQ9LNUQ3zL-1" value="Generative Models" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_x90Vs7hyReQ9LNUQ3zL-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_x90Vs7hyReQ9LNUQ3zL-2" target="_x90Vs7hyReQ9LNUQ3zL-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_x90Vs7hyReQ9LNUQ3zL-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_x90Vs7hyReQ9LNUQ3zL-2" target="_x90Vs7hyReQ9LNUQ3zL-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_x90Vs7hyReQ9LNUQ3zL-2" value="&lt;div&gt;Explicit Density&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_x90Vs7hyReQ9LNUQ3zL-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_x90Vs7hyReQ9LNUQ3zL-4" target="_x90Vs7hyReQ9LNUQ3zL-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_x90Vs7hyReQ9LNUQ3zL-4" value="&lt;div&gt;Implicit Density&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_x90Vs7hyReQ9LNUQ3zL-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_x90Vs7hyReQ9LNUQ3zL-8" target="_x90Vs7hyReQ9LNUQ3zL-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_x90Vs7hyReQ9LNUQ3zL-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_x90Vs7hyReQ9LNUQ3zL-8" target="_x90Vs7hyReQ9LNUQ3zL-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_x90Vs7hyReQ9LNUQ3zL-8" value="Tractable Density" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_x90Vs7hyReQ9LNUQ3zL-18" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-410" y="730" width="440" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="_x90Vs7hyReQ9LNUQ3zL-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_x90Vs7hyReQ9LNUQ3zL-18" source="_x90Vs7hyReQ9LNUQ3zL-6" target="_x90Vs7hyReQ9LNUQ3zL-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_x90Vs7hyReQ9LNUQ3zL-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_x90Vs7hyReQ9LNUQ3zL-18" source="_x90Vs7hyReQ9LNUQ3zL-6" target="_x90Vs7hyReQ9LNUQ3zL-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_x90Vs7hyReQ9LNUQ3zL-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_x90Vs7hyReQ9LNUQ3zL-18" source="_x90Vs7hyReQ9LNUQ3zL-6" target="_x90Vs7hyReQ9LNUQ3zL-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_x90Vs7hyReQ9LNUQ3zL-6" value="Approximate Density" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="_x90Vs7hyReQ9LNUQ3zL-18">
+          <mxGeometry x="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_x90Vs7hyReQ9LNUQ3zL-10" value="Variational Auto encoders" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="_x90Vs7hyReQ9LNUQ3zL-18">
+          <mxGeometry y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_x90Vs7hyReQ9LNUQ3zL-12" value="Energy Based Models" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="_x90Vs7hyReQ9LNUQ3zL-18">
+          <mxGeometry x="160" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_x90Vs7hyReQ9LNUQ3zL-16" value="Diffusion Models" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="_x90Vs7hyReQ9LNUQ3zL-18">
+          <mxGeometry x="320" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_x90Vs7hyReQ9LNUQ3zL-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_x90Vs7hyReQ9LNUQ3zL-18" source="_x90Vs7hyReQ9LNUQ3zL-6" target="_x90Vs7hyReQ9LNUQ3zL-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_x90Vs7hyReQ9LNUQ3zL-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_x90Vs7hyReQ9LNUQ3zL-18" source="_x90Vs7hyReQ9LNUQ3zL-6" target="_x90Vs7hyReQ9LNUQ3zL-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_x90Vs7hyReQ9LNUQ3zL-19" value="Auto-Regression Models" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_x90Vs7hyReQ9LNUQ3zL-21" value="Normalizing flow Models" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_x90Vs7hyReQ9LNUQ3zL-23" value="Generative Adversarial Networks" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
