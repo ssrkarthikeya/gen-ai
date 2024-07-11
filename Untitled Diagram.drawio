@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-10T14:42:14.146Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="9sZx5BmosDK3m2yEWCCv" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-11T03:17:54.084Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="KFrNWHBGNXKt9I6GFg08" version="24.6.4" type="github" pages="3">
   <diagram name="Generative Modeling" id="2twwRFYKnPh-EqDGWzVh">
     <mxGraphModel dx="2035" dy="650" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -75,6 +75,121 @@
         </mxCell>
         <mxCell id="_x90Vs7hyReQ9LNUQ3zL-23" value="Generative Adversarial Networks" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="490" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="U_z89uWIbdy9F-BOnnWu" name="Introduction to Gen Models">
+    <mxGraphModel dx="988" dy="541" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="V_1LdJSa5a2FXDRnTQCA-1" value="&lt;div align=&quot;center&quot;&gt;&lt;blockquote&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;p&gt;&lt;font face=&quot;ssa3SeXLzV_pogOGW6h4&quot;&gt;Generative modeling is a branch of machine learning that involves &lt;br&gt;training a model to produce new data that is similar to a given dataset.&lt;/font&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="9" y="6" width="501" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="V_1LdJSa5a2FXDRnTQCA-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V_1LdJSa5a2FXDRnTQCA-5" target="V_1LdJSa5a2FXDRnTQCA-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_1LdJSa5a2FXDRnTQCA-10" value="&lt;div&gt;Training&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V_1LdJSa5a2FXDRnTQCA-9">
+          <mxGeometry x="-0.098" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V_1LdJSa5a2FXDRnTQCA-5" value="Training Data" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;dashed=0;flipH=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="86" y="238" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="V_1LdJSa5a2FXDRnTQCA-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="V_1LdJSa5a2FXDRnTQCA-6" target="V_1LdJSa5a2FXDRnTQCA-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_1LdJSa5a2FXDRnTQCA-6" value="An Observation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="157" y="357" width="101" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="V_1LdJSa5a2FXDRnTQCA-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V_1LdJSa5a2FXDRnTQCA-8" target="V_1LdJSa5a2FXDRnTQCA-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_1LdJSa5a2FXDRnTQCA-13" value="Sampling" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V_1LdJSa5a2FXDRnTQCA-12">
+          <mxGeometry x="-0.2257" y="-2" relative="1" as="geometry">
+            <mxPoint x="11" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V_1LdJSa5a2FXDRnTQCA-8" value="Generative Model" style="rounded=1;whiteSpace=wrap;html=1;dashed=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="307" y="243" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V_1LdJSa5a2FXDRnTQCA-11" value="Generated Samples" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="233" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V_1LdJSa5a2FXDRnTQCA-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V_1LdJSa5a2FXDRnTQCA-15" target="V_1LdJSa5a2FXDRnTQCA-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="506" y="273" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V_1LdJSa5a2FXDRnTQCA-15" value="Random noise" style="shape=manualInput;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="457" y="343" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V_1LdJSa5a2FXDRnTQCA-17" value="&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;font face=&quot;Times New Roman&quot;&gt;An observation is a single data point in the training data&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Each observation contains features&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Pictures have pixels, texts can be group of words.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="18" y="369" width="379" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="V_1LdJSa5a2FXDRnTQCA-18" value="&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;A Generative model must be Probabilistic than deterministic.&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Meaning, we want a different output every time. &lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="93" width="370" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="V_1LdJSa5a2FXDRnTQCA-19" value="&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;The goal is to build a model that mimics an unknown probabilistic distribution&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;as closely as possible and then sample distinct observations from the output&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="219" y="476" width="468" height="45" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;font face=&quot;Times New Roman&quot;&gt;In order to understand what Gen Models do, we need to understand its counterpart, the discriminative model&lt;/font&gt;" link="data:page/id,B2MJmdyROVD5cbEraPJT" id="5_PVhEBwd4kYhgC_LVfL-1">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+            <mxGeometry x="104" y="549" width="643" height="28" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="B2MJmdyROVD5cbEraPJT" name="Discriminative Modeling">
+    <mxGraphModel dx="988" dy="541" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9oaUT98gLW-_9wO18Rvq-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9oaUT98gLW-_9wO18Rvq-3" target="9oaUT98gLW-_9wO18Rvq-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9oaUT98gLW-_9wO18Rvq-2" value="&lt;div&gt;Training&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9oaUT98gLW-_9wO18Rvq-1">
+          <mxGeometry x="-0.098" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9oaUT98gLW-_9wO18Rvq-3" value="Training Data" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;dashed=0;flipH=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="86" y="238" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9oaUT98gLW-_9wO18Rvq-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9oaUT98gLW-_9wO18Rvq-6" target="9oaUT98gLW-_9wO18Rvq-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9oaUT98gLW-_9wO18Rvq-5" value="Prediction" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9oaUT98gLW-_9wO18Rvq-4">
+          <mxGeometry x="-0.2257" y="-2" relative="1" as="geometry">
+            <mxPoint x="11" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9oaUT98gLW-_9wO18Rvq-6" value="Discriminative Model" style="rounded=1;whiteSpace=wrap;html=1;dashed=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="307" y="243" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9oaUT98gLW-_9wO18Rvq-7" value="Generated Samples" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="233" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5-7qdLWdwSFdwPSt_3sr-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5-7qdLWdwSFdwPSt_3sr-1" target="9oaUT98gLW-_9wO18Rvq-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5-7qdLWdwSFdwPSt_3sr-1" value="Label" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="45" y="398" width="47" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5-7qdLWdwSFdwPSt_3sr-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5-7qdLWdwSFdwPSt_3sr-2" target="9oaUT98gLW-_9wO18Rvq-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5-7qdLWdwSFdwPSt_3sr-2" value="Observation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="126" y="398" width="83" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5-7qdLWdwSFdwPSt_3sr-5" value="&lt;font face=&quot;Times New Roman&quot;&gt;Discriminative modeling aims to model the probability of a label y given some observation X.&lt;svg aria-hidden=&quot;true&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; viewBox=&quot;0 -444 607 444&quot; height=&quot;1.005ex&quot; width=&quot;1.373ex&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; style=&quot;vertical-align: 0px;&quot;&gt;&lt;defs&gt;&lt;/defs&gt;&lt;/svg&gt;&lt;svg aria-hidden=&quot;true&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; viewBox=&quot;0 -444 607 444&quot; height=&quot;1.005ex&quot; width=&quot;1.373ex&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; style=&quot;vertical-align: 0px;&quot;&gt;&lt;g transform=&quot;scale(1,-1)&quot; stroke-width=&quot;0&quot; fill=&quot;currentColor&quot; stroke=&quot;currentColor&quot;&gt;&lt;g data-mml-node=&quot;math&quot;&gt;&lt;g data-mml-node=&quot;mi&quot;&gt;&lt;use data-c=&quot;1D431&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="142" y="94" width="567" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="5-7qdLWdwSFdwPSt_3sr-6" value="&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;If we were able to build a perfect discriminative model to identify Van &lt;br/&gt;Gogh paintings,&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Vs3LM4PrwMPcyHT5-RH5&quot;&gt;&amp;nbsp;it would still have no idea how to create a painting &lt;br/&gt;that looks like a Van Gogh.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Vs3LM4PrwMPcyHT5-RH5&quot;&gt;&amp;nbsp;It can only output probabilities against &lt;br/&gt;existing images, as this is what it has been trained to do&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="194" y="456" width="419" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
