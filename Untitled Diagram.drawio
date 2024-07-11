@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-11T03:17:54.084Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="KFrNWHBGNXKt9I6GFg08" version="24.6.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-07-11T03:19:00.739Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="wG5exmEvPPmwps7m3Yrm" version="24.6.4" type="github" pages="3">
   <diagram name="Generative Modeling" id="2twwRFYKnPh-EqDGWzVh">
     <mxGraphModel dx="2035" dy="650" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -80,7 +80,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="U_z89uWIbdy9F-BOnnWu" name="Introduction to Gen Models">
-    <mxGraphModel dx="988" dy="541" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -144,7 +144,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="B2MJmdyROVD5cbEraPJT" name="Discriminative Modeling">
-    <mxGraphModel dx="988" dy="541" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
